@@ -1,0 +1,43 @@
+.section {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 18px; /* Increase font size */
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  font-size: 20px; /* Increase font size for headers */
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.product-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.product-table td {
+  color: #333;
+}
